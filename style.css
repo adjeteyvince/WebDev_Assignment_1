@@ -1,0 +1,13 @@
+body {
+  font-size: larger;
+}
+section {
+  height: 50px;
+  background-color: aqua;
+}
+.numbers {
+  color: green;
+}
+#special-number {
+  color: white;
+}

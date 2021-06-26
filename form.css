@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  height: 100vh;
+  padding: 10vh 0px;
+  overflow: hidden;
+}
+form {
+  background-color: dodgerblue;
+  max-width: 540px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+input {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 5px 5%;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  width: 40%;
+  font-size: large;
+  /* text-align: center; */
+}
+#female,
+#male {
+  display: inline-flex;
+  margin-right: 5px;
+  width: 15%;
+}
+label {
+  display: block;
+  margin: 5px;
+  font-size: large;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.submit {
+  background-color: rgb(35, 190, 190);
+  /* padding: 10px 10px; */
+  border: none;
+  cursor: pointer;
+}
